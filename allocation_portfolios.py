@@ -1,5 +1,6 @@
 from decimal import Decimal, ROUND_DOWN
 CENTS = Decimal("0.01")
+
 def calculateAllocationNumbersPerPortfolio(deposit_plans, deposits):
     portfolios = dict()
     final_allocations = dict()
